@@ -1,0 +1,58 @@
+.product-tile-holder {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: -745px;
+  margin-left: 330px;
+  width: 78%;
+  height: 100vh;
+  gap: 1px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.indiv-tile-holder {
+  /* border: 1px solid black; */
+  cursor: pointer;
+  width: 170px;
+  height: 350px;
+  margin: 20px;
+}
+
+.brand-name {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.description {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 500;
+}
+.final-price {
+}
+.old-price {
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+.discount{
+  padding-left: 1px;
+  font-size: 13px;
+  font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+#product-modal{
+  background-color: brown;
+
+  width: 90%;
+  height: 100vh;
+}
